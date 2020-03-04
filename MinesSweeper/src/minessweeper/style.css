@@ -1,0 +1,233 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 9, 2018, 3:50:04 PM
+    Author     : TOSHIBA
+*/
+#currentPlayer{
+   -fx-background-image:url("asas.png");
+   -fx-background-repeat:no-repeat;
+   -fx-font-size:200%;
+}
+#mainMnue ,#enterplayergrid,#costomgrid,#scoreboardgrid{
+    -fx-background-position:50% 50%;
+    -fx-background-image:url("gray.jpg");
+    -fx-padding: 20px;
+
+}
+#RrowsLabel
+,#miniLabel
+,#titlLabeMarkedMinosScore
+,#titlLabeMarkedPlusScore
+,#titlLabeOpenedEmptyScore
+,#titlLabeOpenedMineScore
+,#titlLabebounsLevel
+,#titlLabelplayer
+,#titlLabelparameters{
+-fx-font-size:200%;
+    -fx-margin: 20px 20px 30px 30px;
+    -fx-font-style: italic;
+    -fx-font-family: Georgia, Times, serif;
+    -fx-padding: 20px;
+    
+}
+
+#titlLabel1  ,#titlLabelplayer ,#titlLabelplayer,#titlLabel,#titlLabe2,#titlLabe3,#titlLabe4{
+    -fx-font-size:400%;
+    -fx-margin: 20px 20px 30px 30px;
+    -fx-font-style: italic;
+    -fx-font-family: Georgia, Times, serif;
+    -fx-padding: 20px;
+}
+#titlLabelplayer2 ,#titlLabelplayer1,#saveTextField{
+    -fx-font-size:150%;
+    -fx-margin: 20px 20px 30px 30px;
+    -fx-font-style: italic;
+    -fx-font-family: Georgia, Times, serif;
+}
+#name ,#Score,#shieldplayer,#shieldplayer1{
+    -fx-font-size:150%;
+     -fx-font-style: italic;
+    -fx-font-family: Georgia, Times, serif;
+}
+#titlLabel:hover{
+    -fx-color: #ab1206;
+}
+
+#singlepleyar , #humanpleyar ,#randompleyar ,#AIpleyar ,#consolGame ,#GUIGame ,#costom,#scoreCheck,#MarkCheck,#MusicCheck,#scoreMinus{
+    -fx-font-size:250%;
+
+    -fs-float: right;
+    -fx-color: #ab1206;
+    -fx-font-style: italic;
+    -fx-font-family: Georgia, Times, serif;
+    -fx-margin: 60px 60px 60px 60px;
+    -fx-padding: 20px;
+
+}
+#singlepleyar  :hover{
+
+    -fx-color: green;
+    -fx-font-size:300%;
+
+}
+#humanpleyar :hover{
+
+    -fx-color: green;
+    -fx-font-size:300%;
+
+}
+#randompleyar :hover{
+
+    -fx-color: green;
+    -fx-font-size:300%;
+
+}
+#AIpleyar :hover{
+
+    -fx-color: green;
+    -fx-font-size:300%;
+
+}
+#GUIGame :hover{
+
+    -fx-color: green;
+    -fx-font-size:300%;
+
+}
+#costom ,#scoreCheck,#MarkCheck,#MusicCheck,#scoreMinus:hover{
+
+    -fx-color: green;
+    -fx-font-size:300%;
+
+}
+#costom :hover{
+
+    -fx-color: blue;
+    -fx-font-size:500%;
+
+}
+#scoreCheck:hover{
+
+    -fx-color: blue;
+    -fx-font-size:500%;
+
+}
+#MarkCheck:hover{
+
+    -fx-color: blue;
+    -fx-font-size:500%;
+
+}
+#MusicCheck:hover{
+
+    -fx-color: blue;
+    -fx-font-size:500%;
+
+}
+#scoreMinu:hover{
+
+    -fx-color: blue;
+    -fx-font-size:500%;
+
+}
+#consolGame :hover{
+
+    -fx-color: green;
+    -fx-font-size:300%;
+
+}
+#singlepleyar , #humanpleyar ,#randompleyar ,#AIpleyar ,#consolGame ,#GUIGame  :active{
+
+    -fx-color: #ab1206;
+
+}
+#titlLabel1,#titlLabelplayer{
+    -fx-background-color:#ffffff;
+    -fx-background-width:1366px;
+    -fx-opacity:0.2;
+    -fx-color:red;
+    -fx-font-size:400%;
+    -fx-style:bold;
+    -fx-float: right;
+    -fx-color: blue;
+    -fx-margin: 20px 20px 30px 30px;
+    -fx-padding: 20px;
+}
+#SubmitMain,#score,#Load,
+#SubmitPlayer,#Explore
+,#SubmitCostom
+{
+    -fx-style:bold;
+    -fx-color: #ab1206;
+    -fx-font-size:200%;
+    -fx-margin-bottom:10px 10px 30px 30px; 
+     -fx-padding: 15px;
+    -fx-box-shadow: inset 0 0 10px #777777;
+}
+#userTextField1,#userTextField2,#saveTextField{
+    -fx-font-size:20px;
+  
+}
+#Reset
+,#Exit{
+    -fx-style:bold;
+    -fx-color: #ab1206;
+    -fx-font-size:100%;
+    -fx-margin-bottom:30px 30px 50px 50px; 
+     -fx-padding: 10px;
+    -fx-box-shadow: inset 0 0 10px #777777;
+}
+#SubmitMain:hover{
+    -fx-color:green;
+    -fx-font-size:300%;
+}
+#Load:hover{
+    -fx-color:green;
+    -fx-font-size:300%;
+}
+#SubmitPlayer:hover{
+    -fx-color:green;
+    -fx-font-size:300%;
+}
+#SubmitCostom:hover{
+    -fx-color:green;
+    -fx-font-size:300%;
+}
+#Score:hover{
+    -fx-color:green;
+    -fx-font-size:300%;
+}
+#Reset:hover{
+    -fx-color:green;
+    -fx-font-size:300%;
+}
+#Exit:hover{
+    -fx-color:green;
+    -fx-font-size:300%;
+}
+#SubmitMain:active{
+    -fx-color:#cc0322;
+    -fx-font-size:400%;
+}
+#score:active{
+    -fx-color:#cc0322;
+    -fx-font-size:400%;
+}
+#Explore:hover{
+    -fx-color:#cc0322;
+    -fx-font-size:400%;
+}
+#score:hover{
+    -fx-color:#cc0322;
+    -fx-font-size:400%;
+}
+#border:hover{
+    -fx-color:red;
+}
+#scoreboardgrid{
+    -fx-background-color: #484040; 
+}
